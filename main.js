@@ -3,7 +3,7 @@ const shell = require('electron').shell
 const ipc = require('electron').ipcMain
 
 function createWindow () {
-  // Create the browser window.
+  // Create the browser window
   const win = new BrowserWindow({
     width: 800,
     height: 600,
